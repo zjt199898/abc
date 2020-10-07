@@ -2,7 +2,7 @@
 <template>
 
 <div >
-商家
+商jiajia1
 </div>
 
 </template>
