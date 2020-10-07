@@ -1,7 +1,7 @@
 <!--  -->
 <template>
 
-<div class='comment'>
+<div >
 商家
 </div>
 
