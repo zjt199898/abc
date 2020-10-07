@@ -16,13 +16,13 @@
 </div>
 <div class="menu">
 <ul>
-<router-link to="../views/commodity" tag="li">
+<router-link to="/views/commodity" tag="li">
         <p>商品</p>
       </router-link>
-      <router-link to="../views/merchant" tag="li">
+      <router-link to="/views/merchant" tag="li">
         <p>评论</p>
       </router-link>
-      <router-link to="../views/comment" tag="li">
+      <router-link to="/views/comment" tag="li">
         <p>商家</p>
       </router-link>
 </ul>
@@ -162,27 +162,5 @@ activated() {}, //如果页面有keep-alive缓存功能，这个函数会触发
    bottom: 30px;
    text-align: center;
    line-height: 20px;
- }
- .menu{
-   width: 100%;
-   height: 30px;
-   background: white;
- }
- .menu ul{
-    width: 100%;
-   height: 30px;
-   display: flex;
- }
- .menu ul li{
-    height: 30px;
-    flex: 1;
-    line-height: 30px;
-    text-align: center;
-    font-size: 14px;
-    font-weight: bolder;
-    color: #6c7073;
- }
- .menu ul .active{
-   color: red;
  }
 </style>

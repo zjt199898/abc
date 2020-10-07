@@ -6,7 +6,7 @@ export default new VueRouter({
     mode: "history",
     routes: [{
             path: "/",
-            redirect: "../views/commodity",
+            redirect: "/commodity",
         },
         {
             path: '/commodity',

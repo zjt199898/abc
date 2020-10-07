@@ -1,9 +1,6 @@
 <!--  -->
 <template>
 <div class='merchant'>
-<Footer></Footer>
-<router-view></router-view>
-贫家
 </div>
 </template>
 
